@@ -1,0 +1,13 @@
+endpoint: http://localhost:9901
+datamodel: 
+  - models/address.prisma
+  - models/post.prisma
+  - models/user.prisma
+
+generate:
+  - generator: typescript-client
+    output: ./generated/prisma-client/
+
+hooks:
+  post-deploy:
+    - prisma generate 
