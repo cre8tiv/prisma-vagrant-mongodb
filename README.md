@@ -6,7 +6,6 @@ A repo which provides Vagrant support to stand up an instance of MongoDB, Prisma
 3. Assuming you have Vagrant already installed, 'vagrant up' to start
 4. Prisma is available at http://localhost:9901/_admin
 5. Mongo is available at port 27017
-6. Mongo Express is available on port 9903
 7. Once vagrant up is done, prisma deploy
 
 Use the username and password and database used in the .env file.
