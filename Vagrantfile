@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 27017, host: 27017
   
   # for mongo express
-  config.vm.network "forwarded_port", guest: 8888, host: 9903
+  config.vm.network "forwarded_port", guest: 8081, host: 9903
   
   # for ssh
   config.vm.network "forwarded_port", id: "ssh", guest: 22, host: 9904
